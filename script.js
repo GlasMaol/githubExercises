@@ -35,4 +35,6 @@ git checkout DEV
 git checkout DEV
     git checkout feature/One script.js
         git commit -m "merged script.js from feature/one to DEV"
-            git push origin DEV        
+            git push origin DEV
+
+//kommentar för att testa script.js merge med DEV
