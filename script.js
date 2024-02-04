@@ -22,5 +22,6 @@ git branch DEV
 git branch feature/one
     git checkout feature/One
         git push -u origin feature/One
+        //skriva/ändra kod och push upp till feature/One
 
-
+//Push and merge från feature/One till DEV
