@@ -25,3 +25,14 @@ git branch feature/one
         //skriva/ändra kod och push upp till feature/One
 
 //Push and merge från feature/One till DEV
+git checkout DEV
+    git pull origin DEV
+        git merge feature/One
+            git push origin DEV
+
+
+//om vi bara ska merge en specific fil till DEV till ex script.js
+git checkout DEV
+    git checkout feature/One script.js
+        git commit -m "merged script.js from feature/one to DEV"
+            git push origin DEV        
