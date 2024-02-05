@@ -38,3 +38,5 @@ git checkout DEV
             git push origin DEV
 
 //kommentar för att testa script.js merge med DEV
+
+//en till ändring
